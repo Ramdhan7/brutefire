@@ -25,7 +25,7 @@ logo = """ \033[1;91m
               :hds+/-`          `-/+sdh:
                 `/ymM+          oMmy:\033[1;97m
                   [\033[41;1m BRUTEFORHACK \033[00;1m]
-                              Created By Ramdhan Ramadhian
+                       Created By Ramdhan Ramadhian
 """
 
 print (logo)
@@ -65,7 +65,7 @@ def request():
 			os.sys.exit()
 		else:
 			print('')
-			print('\033[91m]\033[90m Mencoba ==> \033[91m[\033[90;1m : ',pw)
+			print('\033[91m]\033[90m Progress ==> \033[91m[\033[90;1m : ',pw)
 			
 			
 if __name__=='__main__':
