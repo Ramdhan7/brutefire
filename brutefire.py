@@ -25,7 +25,7 @@ logo = """ \033[1;91m
               :hds+/-`          `-/+sdh:
                 `/ymM+          oMmy:\033[1;97m
                   [\033[41;1m BRUTEFORHACK \033[00;1m]
-                       Created By Ramdhan Ramadhian
+           Created By Ramdhan Ramadhian
 """
 
 print (logo)
