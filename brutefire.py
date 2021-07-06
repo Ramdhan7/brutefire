@@ -43,7 +43,7 @@ chek = open('chek.txt','a')
 
 def request():
 	password = open(wordlist,'r').readlines()
-	print('\n\033[92mJumlah Password : ',len(password),'\n')
+	print('\n\033[92mNumber Of Password : ',len(password),'\n')
 	print('\033[92m╭────\033[91m[\033[97m Enter Target ID\033[91m ]')
 	id = input('\033[92m╰────➲\033[93m ')
 	for line in password:
