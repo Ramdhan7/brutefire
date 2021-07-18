@@ -34,7 +34,7 @@ def load():
 	print('')
 
 
-url = 'https://mbasic.facebook.com/login.php'
+url = 'https://mobile.facebook.com/login.php'
 headers = {
 	  'User-Agent':'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16','Accept-Langue' : 'en-US,en:q=0.5'
 }
