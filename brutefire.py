@@ -24,7 +24,7 @@ logo = """ \033[1;91m
             /hs+/::.--          --.::/+sh:
               :hds+/-`          `-/+sdh:
                 `/ymM+          oMmy:\033[1;97m
-                  [\033[41;1m BRUTEFORHACK \033[00;1m]
+                  [\033[46;1m BRUTEFORHACK \033[00;1m]
              \033[1;96mCreated By Ramdhan Ramadhian
 """
 
@@ -45,7 +45,7 @@ def request():
 	password = open(wordlist,'r').readlines()
 	print('\n\033[96mNumber Of Password : ',len(password),'\n')
 	print('\033[92m╭────\033[91m[\033[97m Enter Target ID\033[91m ]')
-	id = input('\033[92m╰────➲\033[93m ')
+	id = input('\033[96m╰────➲\033[93m ')
 	for line in password:
 		pw = line.strip()
 		data = {
@@ -70,6 +70,6 @@ def request():
 			
 if __name__=='__main__':
 	print('\033[92m╭────\033[91m[ \033[97mEnter Wordlist File \033[92m( word.txt ) \033[91;1m]')
-	wordlist = input('\033[92m╰────➲\033[93m ')
+	wordlist = input('\033[96m╰────➲\033[93m ')
 	request()
 	
