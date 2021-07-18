@@ -27,7 +27,7 @@ logo = """ \033[1;91m
                   [\033[41;1m BRUTEFORHACK \033[00;1m]
              \033[1;96mCreated By Ramdhan Ramadhian
 """
-
+os.system('clear')
 print (logo)
 
 def load():
