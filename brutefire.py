@@ -24,7 +24,7 @@ logo = """ \033[1;91m
             /hs+/::.--          --.::/+sh:
               :hds+/-`          `-/+sdh:
                 `/ymM+          oMmy:\033[1;97m
-                  [\033[42;1m BRUTEFORHACK \033[00;1m]
+                  [\033[45;1m BRUTEFORHACK \033[00;1m]
              \033[1;96mCreated By Ramdhan Ramadhian
 """
 
@@ -65,7 +65,7 @@ def request():
 			os.sys.exit()
 		else:
 			print('')
-			print('\033[91m]\033[90m Detect ==> \033[91m[\033[91;1m : ',pw)
+			print('\033[91m]\033[93m Detect ==> \033[91m[\033[91;1m : ',pw)
 			
 			
 if __name__=='__main__':
