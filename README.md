@@ -19,7 +19,9 @@ $ python brutefire.py
 ### MANUAL PASS :
 ````bash
 HOW TO MAKE YOUR OWN WORDLIST
--If you want to create your own wordlist After typing "cd brutefire" you type the following command
+-If you want to create your own
+wordlist After typing "cd brutefire"
+you type the following command
 $ pkg install nano
 $ nano manual.txt
 -Enter the words that
