@@ -30,5 +30,5 @@ then enter and run the tool by
 typing "python brutefire.py"
 and if the tool is asked
 to enter the wordlist,
-you can type manual.txt
+you can type "manual.txt"
 ````
