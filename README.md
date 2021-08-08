@@ -15,6 +15,7 @@ $ git clone https://github.com/Ramdhan7/brutefire
 $ cd brutefire
 $ ls
 $ python brutefire.py
+````
 ### MANUAL PASS :
 ````bash
 HOW TO MAKE YOUR OWN WORDLIST
