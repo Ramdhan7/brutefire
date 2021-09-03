@@ -16,7 +16,7 @@ $ cd brutefire
 $ ls
 $ python brutefire.py
 ````
-### MANUAL PASS :
+### MANUAL PASSWORD :
 ````bash
 HOW TO MAKE YOUR OWN WORDLIST
 -If you want to create your own
