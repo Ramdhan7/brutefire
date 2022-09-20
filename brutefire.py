@@ -25,7 +25,7 @@ logo = """ \033[1;91m
               :hds+/-`          `-/+sdh:
                 `/ymM+          oMmy:\033[1;97m
                   [\033[41;1m BRUTEFORHACK \033[00;1m]
-                           \n        \033[1;96m Created By Ramdhan Ramadhian
+                           \n         \033[1;96m Created By Ramdhan Ramadhian
 """
 
 print (logo)
@@ -36,7 +36,7 @@ def load():
 
 url = 'https://mobile.facebook.com/login.php'
 headers = {
-	  'User-Agent':'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16','Accept-Langue' : 'en-US,en:q=0.5'
+	  'User-Agent':'Mozilla/5.0 (Nintendo 3DS; U; ; en) Version/1.7412.EU','Accept-Langue' : 'en-US,en:q=0.5'
 }
 hack = open('hack.txt','a')
 chek = open('chek.txt','a')
